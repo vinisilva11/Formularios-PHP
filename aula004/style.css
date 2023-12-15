@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(13, 12, 70);
+  margin: 0;
+  padding: 0;
+}
+
+form, table {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, td, tr, th {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0cbb12;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+input[type="email"] {
+  text-align: left;
+}
+
+input[type="number"] {
+  text-align: left;
+}
+
+/* Adicione estilos de sua escolha conforme necessário */
